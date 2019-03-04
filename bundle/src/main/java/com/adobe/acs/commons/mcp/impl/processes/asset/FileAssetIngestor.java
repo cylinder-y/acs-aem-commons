@@ -290,7 +290,7 @@ public class FileAssetIngestor extends AssetIngestor {
         }
     }
 
-    class SftpHierarchicalElement implements HierarchicalElement {
+    public class SftpHierarchicalElement implements HierarchicalElement {
 
         boolean isFile;
         HierarchicalElement parent;
